@@ -90,24 +90,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Express", value: 70 },
+    { name: "PostgreSQL", value: 68 },
+    { name: "Node.js", value: 78 },
+    { name: "Sequelize", value: 74 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "React", value: 80 },
+    { name: "HTML/CSS", value: 75 },
+    { name: "Redux", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Result-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Logical Thinking", value: 85 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 88 },
+    { name: "Proactive", value: 75 },
+    { name: "Agile Learning", value: 90 },
+    { name: "Empaty", value: 90 },
   ],
 };
 
@@ -116,7 +116,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Full Stack Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "santiago.restrepo06@hotmail.com",
 };
 
