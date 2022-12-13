@@ -59,21 +59,10 @@ const Project = ({ heading, username, length, specfic }) => {
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row>
-          {projectsArray.length
-            ? projectsArray.map((project, index) => (
-              <ProjectCard
-                key={`project-card-${index}`}
-                id={`project-card-${index}`}
-                value={project}
-              />
-            ))
-            : dummyProjectsArr.map((project, index) => (
-              <ProjectCard
-                key={`dummy-${index}`}
-                id={`dummy-${index}`}
-                value={project}
-              />
-            ))}
+       
+              <ProjectCard/>
+        
+
         </Row>
       </Container>
     </Jumbotron>
