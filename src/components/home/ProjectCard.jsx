@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row';
 import url from "../../image/miniatura.png"
+import poke from "../../image/pokemon.png"
 import Button from "react-bootstrap/Button"
 import Container from 'react-bootstrap/Container';
 
@@ -27,14 +28,14 @@ const ProjectCard = ({ value }) => {
     </Col>
     <Col xs={4}>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={url} />
+      <Card.Img variant="top" src={poke} />
       <Card.Body>
         <Card.Title>PokeAPP</Card.Title>
         <Card.Text>
         I designed and developed a pokemon App that included searching, filtering, sorting and creating pokemons.for the Front I used React, Redux and CSS.for the Back I used, Node.js with Express.
 
         </Card.Text>
-        <a href="https://pf-ur-learning.vercel.app/"><Button variant="light">View 🚀</Button></a>
+        <a href="https://github.com/santiagor06/PIpokemon"><Button variant="light">View 🚀</Button></a>
       </Card.Body>
     </Card>
     </Col>
