@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row';
 import url from "../../image/miniatura.png"
 import poke from "../../image/pokemon.png"
+import uplo from "../../image/upload.png"
 import Button from "react-bootstrap/Button"
 import Container from 'react-bootstrap/Container';
 
@@ -19,8 +20,7 @@ const ProjectCard = ({ value }) => {
       <Card.Body>
         <Card.Title>urLearning</Card.Title>
         <Card.Text>
-        I worked with a group of 8 people in Henry's final project, as a full stack developer in the creation of a web application for selling online courses.
-
+        A website for the sale of online courses.the technologies used were postgreSQL,node.js and express for the back,for the front we used react,redux and tailwind,we also used firebase for the user authentication. 
         </Card.Text>
         <a href="https://pf-ur-learning.vercel.app/"><Button variant="light">View 🚀</Button></a>
       </Card.Body>
@@ -39,6 +39,18 @@ const ProjectCard = ({ value }) => {
       </Card.Body>
     </Card>
     </Col>
+    <Col xs={4}>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={uplo} />
+      <Card.Body>
+        <Card.Title>Upload Image</Card.Title>
+        <Card.Text>
+        An application that allows you to upload files and gives you a url to access it. I used React and bootstrap for the front end, cloudinary to upload the files.        </Card.Text>
+        <a href="https://imageupload-omega.vercel.app/"><Button variant="light">View 🚀</Button></a>
+      </Card.Body>
+    </Card>
+    </Col>
+
     </Row>
    </Container>
      
