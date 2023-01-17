@@ -35,7 +35,7 @@ const ProjectCard = ({ value }) => {
         I designed and developed a pokemon App that included searching, filtering, sorting and creating pokemons.for the Front I used React, Redux and CSS.for the Back I used, Node.js with Express.
 
         </Card.Text>
-        <a href="https://github.com/santiagor06/PIpokemon"><Button variant="light">View 🚀</Button></a>
+        <a href="https://pokeapp-ochre.vercel.app/"><Button variant="light">View 🚀</Button></a>
       </Card.Body>
     </Card>
     </Col>
