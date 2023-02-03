@@ -15,6 +15,7 @@ const ProjectCard = ({ value }) => {
 const techURL=["Javascript","React","Tailwind","PostgreSQL","Node.js","Express","Firebase"]
 const techPoke=["Javascript","React","CSS","PostgreSQL","Node.js","Express"]
 const techUpload=["Javascript","React","Bootstrap","Cloudinary"]
+const techIssue=["Typescript","React","React Query","Bootstrap"]
   return (
    <Container>
     <Row  className="g-4 justy-content align-item" xs={2} md={4} >
@@ -65,9 +66,9 @@ const techUpload=["Javascript","React","Bootstrap","Cloudinary"]
       <Card.Body>
         <Card.Title>Git Issues</Card.Title>
         <Card.Text>
-        An application that allows you to upload files and gives you a url to access it.
+        Application that displays the issues in the official react repository, filtering by labels and issue status.
         <div>
-          {techUpload.map(tech=>{
+          {techIssue.map(tech=>{
           return (<Badge pill bg="primary">
         {tech}
       </Badge>)}
@@ -75,7 +76,7 @@ const techUpload=["Javascript","React","Bootstrap","Cloudinary"]
  
           </div></Card.Text>
         
-        <a href="https://imageupload-omega.vercel.app/"><Button variant="light">View 🚀</Button></a>
+        <a href="https://query-issue.vercel.app/issues/list"><Button variant="light">View 🚀</Button></a>
       </Card.Body>
     </Card>
     </Col>
