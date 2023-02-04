@@ -14,7 +14,7 @@ import Badge from 'react-bootstrap/Badge';
 
 
 const ProjectCard = ({ value }) => {
-const techURL=["Javascript","React","Tailwind","PostgreSQL","Node.js","Express","Firebase"]
+const techURL=["Javascript","React","PostgreSQL","Node.js","Express","Firebase"]
 const techPoke=["Javascript","React","CSS","PostgreSQL","Node.js","Express"]
 const techUpload=["Javascript","React","Bootstrap","Cloudinary"]
 const techIssue=["Typescript","React","React Query","Bootstrap"]
