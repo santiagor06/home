@@ -4,11 +4,13 @@ import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row';
 import url from "../../image/miniatura.png"
 import poke from "../../image/pokemon.png"
+import git from "../../image/giticon.png"
 import uplo from "../../image/upload.png"
 import issue from "../../image/gitIssue.png"
 import Button from "react-bootstrap/Button"
 import Container from 'react-bootstrap/Container';
 import Badge from 'react-bootstrap/Badge';
+
 
 
 const ProjectCard = ({ value }) => {
@@ -36,6 +38,7 @@ const techIssue=["Typescript","React","React Query","Bootstrap"]
           </div>
         </Card.Text>
         <a href="https://pf-ur-learning.vercel.app/"><Button variant="light">View 🚀</Button></a>
+        <a href="https://github.com/JuanSBass/PF-urLearning"><Button variant="light">Repo <img style={{ width: '20px' ,height: '20px' }}  src={git}/> </Button></a>
       </Card.Body>
     </Card>
     </Col>
@@ -57,6 +60,7 @@ const techIssue=["Typescript","React","React Query","Bootstrap"]
 
         </Card.Text>
         <a href="https://pokeapp-ochre.vercel.app/"><Button variant="light">View 🚀</Button></a>
+        <a href="https://github.com/santiagor06/PIpokemon"><Button variant="light">Repo <img style={{ width: '20px' ,height: '20px' }}  src={git}/> </Button></a>
       </Card.Body>
     </Card>
     </Col>
@@ -77,6 +81,7 @@ const techIssue=["Typescript","React","React Query","Bootstrap"]
           </div></Card.Text>
         
         <a href="https://query-issue.vercel.app/issues/list"><Button variant="light">View 🚀</Button></a>
+        <a href="https://github.com/santiagor06/query-issue"><Button variant="light">Repo <img style={{ width: '20px' ,height: '20px' }}  src={git}/> </Button></a>
       </Card.Body>
     </Card>
     </Col>
@@ -97,6 +102,7 @@ const techIssue=["Typescript","React","React Query","Bootstrap"]
           </div></Card.Text>
         
         <a href="https://imageupload-omega.vercel.app/"><Button variant="light">View 🚀</Button></a>
+        <a href="https://github.com/santiagor06/imageupload"><Button variant="light">Repo <img style={{ width: '20px' ,height: '20px' }}  src={git}/> </Button></a>
       </Card.Body>
     </Card>
     </Col>
